@@ -1,0 +1,94 @@
+body {
+  font-family: monospace, consolas;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(176, 180, 182)
+    url("https://media1.giphy.com/media/3o6MbhbYBsqTrbP2qQ/giphy.gif?cid=ecf05e47te7q5zqbsuaga2duiofesyx3v8yongdmfqh9yehn&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.todo-app {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+}
+
+.header {
+  background-color: #482940;
+  color: #ece6e6;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+input[type="text"] {
+  width: 85%;
+  padding: 8px;
+  margin: 8px;
+}
+
+button {
+  padding: 8px;
+  margin: 8px;
+  background-color: #157965;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  height: 35px;
+  border-radius: 4px;
+}
+button:hover {
+  color: #157965;
+  background-color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.checkbox {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: #fbf8f8;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.delete-btn:hover {
+  background-color: #fff;
+  color: #e74c3c;
+  font-weight: 700;
+}
